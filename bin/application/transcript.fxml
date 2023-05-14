@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="450.0" style="-fx-background-color: F8F7F7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TranscriptController">
+   <center>
+      <AnchorPane prefHeight="285.0" prefWidth="450.0" style="-fx-background-color: e1dbd2;" BorderPane.alignment="CENTER">
+         <children>
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="124.0" layoutY="113.0" startX="-100.0" />
+            <Line endX="-99.70709991455078" endY="191.7071075439453" layoutX="123.0" layoutY="113.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="123.0" layoutY="140.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="123.0" layoutY="170.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="124.0" layoutY="203.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="123.0" layoutY="235.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="123.0" layoutY="267.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="124.0" layoutY="304.0" startX="-100.0" />
+            <Line endX="-99.29287719726562" endY="190.2928924560547" layoutX="518.0" layoutY="113.0" startX="-100.0" />
+            <Line endX="-99.99998474121094" endY="190.2928924560547" layoutX="304.0" layoutY="113.0" startX="-100.0" />
+            <Line endX="-98.99996948242188" endY="239.00001525878906" layoutX="360.0" layoutY="64.0" startX="-99.70706176757812" startY="48.70711135864258" />
+            <Line endX="-99.70706176757812" endY="238.2928924560547" layoutX="416.0" layoutY="65.0" startX="-99.70706176757812" startY="48.70711135864258" />
+            <Label layoutX="82.0" layoutY="116.0" text="Course" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="206.0" layoutY="116.0" prefHeight="22.0" prefWidth="60.0" text="CrdHrs" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="266.0" layoutY="116.0" prefHeight="22.0" prefWidth="45.0" text="Grade" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="342.0" layoutY="116.0" prefHeight="22.0" prefWidth="45.0" text="Type" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="265.0" layoutY="94.0" text="CGPA: 3.21">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="352.0" layoutY="94.0" text="SGPA: 3.21">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="128.0" layoutY="370.0" startX="-100.0" />
+            <Line endX="-99.70709991455078" endY="191.7071075439453" layoutX="127.0" layoutY="370.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="127.0" layoutY="397.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="127.0" layoutY="427.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="128.0" layoutY="460.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="127.0" layoutY="492.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="127.0" layoutY="524.0" startX="-100.0" />
+            <Line endX="294.0000305175781" endY="-7.62939453125E-6" layoutX="128.0" layoutY="561.0" startX="-100.0" />
+            <Line endX="-99.29287719726562" endY="190.2928924560547" layoutX="522.0" layoutY="370.0" startX="-100.0" />
+            <Line endX="-99.99998474121094" endY="190.2928924560547" layoutX="308.0" layoutY="370.0" startX="-100.0" />
+            <Line endX="-98.99996948242188" endY="239.00001525878906" layoutX="364.0" layoutY="321.0" startX="-99.70706176757812" startY="48.70711135864258" />
+            <Line endX="-99.70706176757812" endY="238.2928924560547" layoutX="420.0" layoutY="322.0" startX="-99.70706176757812" startY="48.70711135864258" />
+            <Label layoutX="86.0" layoutY="373.0" text="Course" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="373.0" prefHeight="22.0" prefWidth="60.0" text="CrdHrs" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="270.0" layoutY="373.0" prefHeight="22.0" prefWidth="45.0" text="Grade" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="346.0" layoutY="373.0" prefHeight="22.0" prefWidth="45.0" text="Type" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="271.0" layoutY="350.0" text="CGPA:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="356.0" layoutY="351.0" text="SGPA:">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="147.0" text="Data Structures" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="178.0" text="Calculus" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="209.0" text="Applied Physics" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="243.0" text="Islamic Studies" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="277.0" text="IICT" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="227.0" layoutY="277.0" text="1">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="227.0" layoutY="243.0" text="3">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="227.0" layoutY="210.0" text="3">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="227.0" layoutY="178.0" text="3">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="227.0" layoutY="147.0" text="3">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="283.0" layoutY="278.0" text="A-">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="283.0" layoutY="244.0" text="A">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="283.0" layoutY="211.0" text="B+">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="283.0" layoutY="179.0" text="A-">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="283.0" layoutY="148.0" text="A">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="350.0" layoutY="277.0" text="Core">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="350.0" layoutY="242.0" text="Core">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="350.0" layoutY="209.0" text="Core">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="350.0" layoutY="177.0" text="Core">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="350.0" layoutY="147.0" text="Core">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="course1" layoutX="40.0" layoutY="403.0" prefHeight="17.0" prefWidth="127.0" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="course2" layoutX="40.0" layoutY="436.0" prefHeight="17.0" prefWidth="159.0" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="course3" layoutX="40.0" layoutY="467.0" prefHeight="17.0" prefWidth="147.0" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="course4" layoutX="40.0" layoutY="501.0" prefHeight="17.0" prefWidth="157.0" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="course5" layoutX="40.0" layoutY="535.0" prefHeight="17.0" prefWidth="143.0" textFill="#4e321c">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="crdHrs5" layoutX="232.0" layoutY="535.0" prefHeight="17.0" prefWidth="26.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="crdHrs4" layoutX="232.0" layoutY="501.0" prefHeight="17.0" prefWidth="25.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="crdHrs3" layoutX="232.0" layoutY="468.0" prefHeight="17.0" prefWidth="25.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="crdHrs2" layoutX="232.0" layoutY="436.0" prefHeight="17.0" prefWidth="21.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="crdHrs1" layoutX="232.0" layoutY="405.0" prefHeight="17.0" prefWidth="23.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="type5" layoutX="355.0" layoutY="535.0" prefHeight="17.0" prefWidth="50.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="type4" layoutX="350.0" layoutY="500.0" prefHeight="17.0" prefWidth="57.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="type3" layoutX="355.0" layoutY="467.0" prefHeight="17.0" prefWidth="49.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="type2" layoutX="355.0" layoutY="435.0" prefHeight="17.0" prefWidth="49.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="type1" layoutX="355.0" layoutY="405.0" prefHeight="17.0" prefWidth="43.0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="grade1" layoutX="276.0" layoutY="405.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="grade2" layoutX="276.0" layoutY="436.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="grade3" layoutX="278.0" layoutY="468.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="grade4" layoutX="275.0" layoutY="500.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="grade5" layoutX="278.0" layoutY="535.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="cgpa" layoutX="313.0" layoutY="351.0" prefHeight="17.0" prefWidth="43.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="sgpa" layoutX="395.0" layoutY="351.0" prefHeight="17.0" prefWidth="49.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="93.0" layoutY="32.0" prefHeight="35.0" prefWidth="143.0" text="TRANSCRIPT" textFill="#4a2f17">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="46.66664123535156" endY="7.62939453125E-6" layoutX="176.0" layoutY="64.0" startX="-85.99998474121094" startY="3.814697265625E-6" strokeWidth="2.0" />
+            <ImageView fitHeight="104.0" fitWidth="104.0" layoutX="1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="goBack" layoutX="366.0" layoutY="44.0" mnemonicParsing="false" onAction="#goBack" text="&gt;&gt;BACK">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="view" layoutX="26.0" layoutY="323.0" mnemonicParsing="false" onAction="#view" style="-fx-background-color: #000000;" text="view&gt;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

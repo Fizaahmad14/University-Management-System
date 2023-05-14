@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainPageController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: e1dbd2;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="admission" layoutX="35.0" layoutY="488.0" mnemonicParsing="false" onAction="#admission" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #a68261;" text="Learn More &gt;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font></Button>
+            <ImageView fitHeight="287.0" fitWidth="450.0" layoutX="1.0" opacity="0.81" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@main.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="133.0" layoutX="154.0" layoutY="307.0" opacity="0.78" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@fa.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="124.0" layoutX="14.0" layoutY="307.0" opacity="0.87" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ad.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="91.0" fitWidth="134.0" layoutX="301.0" layoutY="306.0" opacity="0.89" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@st.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="44.0" layoutY="397.0" prefHeight="17.0" prefWidth="63.0" text="Admission" textFill="#4a4848">
+               <font>
+                  <Font name="Times New Roman Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="facLogin" layoutX="180.0" layoutY="488.0" mnemonicParsing="false" onAction="#facLogin" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #a68261;" text="Learn More &gt;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="StudLogin" layoutX="328.0" layoutY="488.0" mnemonicParsing="false" onAction="#StudLogin" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #a68261;" text="Learn More &gt;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Button>
+            <Label layoutX="180.0" layoutY="397.0" prefHeight="17.0" prefWidth="79.0" text="Faculty Login" textFill="#4a4848">
+               <font>
+                  <Font name="Times New Roman Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="326.0" layoutY="397.0" prefHeight="17.0" prefWidth="83.0" text="Student Login" textFill="#4a4848">
+               <font>
+                  <Font name="Times New Roman Bold" size="12.0" />
+               </font>
+            </Label>
+            <Line endX="128.33328247070312" endY="-3.814697265625E-6" layoutX="223.0" layoutY="61.0" startX="-140.3333740234375" startY="-3.814697265625E-6" stroke="#e1dbd2" strokeWidth="19.0" />
+            <Text fill="WHITE" layoutX="171.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powering young minds" wrappingWidth="133.30076599121094">
+               <font>
+                  <Font name="System Bold Italic" size="10.0" />
+               </font>
+            </Text>
+            <Text fill="#594737" layoutX="19.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register to become a part of our university and power your mind towards greatness." textAlignment="CENTER" wrappingWidth="112.63407135009766">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fill="#594737" layoutX="164.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in to your account to mark attendance, grades and much more." textAlignment="CENTER" wrappingWidth="112.63407135009766">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fill="#594737" layoutX="311.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in to your account to register courses, see attendance, transcript and much more." textAlignment="CENTER" wrappingWidth="112.63407135009766">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Label layoutX="133.0" layoutY="148.0" text="NUTECH PORTAL" textFill="#281616">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="152.0" fitWidth="134.0" layoutX="314.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

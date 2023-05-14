@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="450.0" style="-fx-background-color: F8F7F7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane prefHeight="623.0" prefWidth="463.0" style="-fx-background-color: e1dbd2;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="33.0" layoutY="152.0" text="Name">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="name" layoutX="82.0" layoutY="150.0" prefHeight="25.0" prefWidth="113.0" />
+            <Label layoutX="36.0" layoutY="470.0" text="Address">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="310.0" text="Student's Phone Number">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="phoneNo" layoutX="239.0" layoutY="309.0" prefHeight="25.0" prefWidth="177.0" />
+            <SplitMenuButton fx:id="gender" layoutX="103.0" layoutY="190.0" mnemonicParsing="false" text="Select">
+              <items>
+                <MenuItem fx:id="Female" mnemonicParsing="false" onAction="#female" text="Female" />
+                  <MenuItem mnemonicParsing="false" onAction="#male" text="Male" />
+                  <MenuItem mnemonicParsing="false" onAction="#other" text="Other" />
+              </items>
+            </SplitMenuButton>
+            <Label layoutX="34.0" layoutY="192.0" text="Gender">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <SplitMenuButton fx:id="preference" layoutX="239.0" layoutY="541.0" mnemonicParsing="false" text="Select">
+               <items>
+                  <MenuItem fx:id="BSCS" mnemonicParsing="false" onAction="#cs" text="BS (CS)" />
+                  <MenuItem fx:id="BSAI" mnemonicParsing="false" onAction="#ai" text="BS (AI)" />
+                  <MenuItem fx:id="BSSE" mnemonicParsing="false" onAction="#se" text="BS (SE)" />
+                  <MenuItem fx:id="BSCYS" mnemonicParsing="false" onAction="#cys" text="BS (CYS)" />
+               </items>
+            </SplitMenuButton>
+            <Label layoutX="38.0" layoutY="543.0" text="Preference">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="205.0" layoutY="152.0" text="Father Name">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fatherName" layoutX="300.0" layoutY="150.0" prefHeight="25.0" prefWidth="113.0" />
+            <Label layoutX="33.0" layoutY="350.0" text="Father's Phone Number">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fatherPhoneNo" layoutX="238.0" layoutY="348.0" prefHeight="25.0" prefWidth="177.0" />
+            <Label layoutX="36.0" layoutY="233.0" prefHeight="18.0" prefWidth="103.0" text="Student's CNIC">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cnic" layoutX="239.0" layoutY="231.0" prefHeight="25.0" prefWidth="177.0" />
+            <Label layoutX="35.0" layoutY="272.0" prefHeight="18.0" prefWidth="97.0" text="Father's CNIC">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fatherCnic" layoutX="240.0" layoutY="270.0" prefHeight="25.0" prefWidth="176.0" />
+            <Label layoutX="206.0" layoutY="192.0" text="Qualification">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <SplitMenuButton fx:id="qaulification" layoutX="341.0" layoutY="190.0" mnemonicParsing="false" text="Select">
+               <items>
+                  <MenuItem fx:id="Alevel" mnemonicParsing="false" onAction="#Alevel" text="O/A level" />
+                  <MenuItem fx:id="Intermediate" mnemonicParsing="false" onAction="#inter" text="Matric/FSC" />
+               </items>
+            </SplitMenuButton>
+            <Label layoutX="31.0" layoutY="390.0" text="Student's Email">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="email" layoutX="237.0" layoutY="388.0" prefHeight="25.0" prefWidth="179.0" />
+            <Label layoutX="34.0" layoutY="430.0" text="Father's Email">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fatherEmail" layoutX="237.0" layoutY="428.0" prefHeight="25.0" prefWidth="179.0" />
+            <Button fx:id="submit" layoutX="363.0" layoutY="541.0" mnemonicParsing="false" onAction="#Submit" text="Submit" />
+            <TextArea fx:id="address" layoutX="236.0" layoutY="470.0" prefHeight="57.0" prefWidth="179.0" />
+            <Line endX="173.66668701171875" endY="412.33331298828125" layoutX="279.0" layoutY="-283.0" startX="-279.0" startY="412.33331298828125" strokeWidth="2.0" />
+            <Line endX="134.66665649414062" endY="389.33331298828125" layoutX="-120.0" layoutY="220.0" startX="134.6666717529297" startY="-77.33334350585938" stroke="#a68261" strokeWidth="25.0" />
+            <Line endX="134.66665649414062" endY="368.3333740234375" layoutX="309.0" layoutY="242.0" startX="134.66665649414062" startY="-100.66665649414062" stroke="#a68261" strokeWidth="22.0" />
+            <Line endX="226.49996948242188" endY="0.66668701171875" layoutX="189.0" layoutY="599.0" startX="-146.16668701171875" startY="0.66668701171875" stroke="#a68261" strokeWidth="46.0" />
+            <ImageView fitHeight="153.0" fitWidth="456.0" layoutX="-2.0" layoutY="-24.0" opacity="0.22" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@admission.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="245.0" layoutY="62.0" prefHeight="39.0" prefWidth="191.0" text="Registration Form">
+               <font>
+                  <Font name="Calibri Bold" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="164.0" fitWidth="178.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Line endX="173.66668701171875" endY="412.33331298828125" layoutX="279.0" layoutY="-387.0" startX="-279.0" startY="412.33331298828125" strokeWidth="2.0" />
+            <Line endX="-252.33334350585938" endY="-73.33333587646484" layoutX="256.0" layoutY="100.0" startX="-252.33334350585938" startY="27.99999237060547" strokeWidth="2.0" />
+            <Line endX="93.33331298828125" endY="-82.66666412353516" layoutX="360.0" layoutY="110.0" startX="93.33331298828125" startY="17.99999237060547" strokeWidth="2.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

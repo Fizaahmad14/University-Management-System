@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="450.0" style="-fx-background-color: F8F7F7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StudentCardFormController">
+   <center>
+      <AnchorPane prefHeight="525.0" prefWidth="450.0" style="-fx-background-color: e1dbd2;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="122.0" layoutY="62.0" text="Student Card Form" textFill="#554530">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="289.0" fitWidth="316.0" layoutX="-31.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Line endX="214.33331298828125" layoutX="209.0" layoutY="134.0" startX="-184.33334350585938" stroke="#69482b" strokeWidth="3.0" />
+            <Line endX="214.33331298828125" layoutX="208.0" layoutY="463.0" startX="-184.33334350585938" stroke="#69482b" strokeWidth="3.0" />
+            <Line endX="-196.33334350585938" endY="318.9999694824219" layoutX="620.0" layoutY="143.0" startX="-195.33334350585938" startY="-9.0" stroke="#69482b" strokeWidth="3.0" />
+            <Button fx:id="goBack" layoutX="27.0" layoutY="475.0" mnemonicParsing="false" onAction="#goBack" text="&gt;&gt;BACK">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="168.0" layoutY="151.0" prefHeight="294.0" prefWidth="228.0" style="-fx-background-color: #a68261; -fx-background-radius: 20;">
+               <children>
+                  <TextField fx:id="balance" layoutX="139.0" layoutY="43.0" prefHeight="25.0" prefWidth="76.0" />
+                  <Label layoutX="23.0" layoutY="112.0" text="Degree" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <SplitMenuButton fx:id="membership" layoutX="139.0" layoutY="174.0" mnemonicParsing="false" style="-fx-background-color: #a68261;" text="Select">
+                    <items>
+                      <MenuItem fx:id="gym" mnemonicParsing="false" onAction="#gym" text="Gym" />
+                        <MenuItem fx:id="sport" mnemonicParsing="false" onAction="#sport" text="Sport" />
+                    </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton fx:id="degree" layoutX="139.0" layoutY="108.0" mnemonicParsing="false" style="-fx-background-color: #a68261;" text="Select">
+                     <items>
+                        <MenuItem fx:id="cs" mnemonicParsing="false" onAction="#cs" text="BS(CS)" />
+                        <MenuItem fx:id="ai" mnemonicParsing="false" onAction="#ai" text="BS(AI)" />
+                        <MenuItem fx:id="se" mnemonicParsing="false" onAction="#se" text="BS(SE)" />
+                        <MenuItem fx:id="cys" mnemonicParsing="false" onAction="#cys" text="BS(CYS)" />
+                     </items>
+                  </SplitMenuButton>
+                  <Label layoutX="23.0" layoutY="176.0" text="Memberships" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="45.0" prefHeight="21.0" prefWidth="128.0" text="Balance" textFill="#f6f6f6">
+                     <font>
+                        <Font name="Times New Roman Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="submit" layoutX="86.0" layoutY="246.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: #554530;" text="Submit" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Line endX="-195.3333282470703" endY="116.66665649414062" layoutX="220.0" layoutY="142.0" startX="-195.3333282470703" startY="-6.5" stroke="#69482b" strokeWidth="3.0" />
+            <Line endX="-195.3333282470703" endY="116.66665649414062" layoutX="219.0" layoutY="344.0" startX="-195.3333282470703" startY="-45.333343505859375" stroke="#69482b" strokeWidth="3.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

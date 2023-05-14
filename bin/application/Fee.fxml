@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FeeController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="139.0" layoutY="87.0" text="Faysal Bank Limited">
+               <font>
+                  <Font name="Bell MT Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="256.0" text="Discipline:">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="235.0" prefHeight="18.0" prefWidth="55.0" text="Name:">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="214.0" prefHeight="18.0" prefWidth="73.0" text="Due Date:">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="277.0" prefHeight="18.0" prefWidth="78.0" text="Semester:">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="296.0" prefHeight="18.0" prefWidth="92.0" text="Roll Number">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="171.0" layoutY="115.0" text="NUTECH-ISD">
+               <font>
+                  <Font name="Bell MT Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="challanNo" layoutX="79.0" layoutY="8.0" prefHeight="21.0" prefWidth="107.0" textFill="#ff0101" />
+            <Label layoutX="72.0" layoutY="160.0" prefHeight="23.0" prefWidth="337.0" text="Fee can be paid at all Faysal Bank Limited branches across">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="214.0" prefHeight="17.0" prefWidth="111.0" text="15 December, 2022" />
+            <Label fx:id="name" layoutX="158.0" layoutY="237.0" prefHeight="17.0" prefWidth="208.0" />
+            <Label fx:id="degree" layoutX="158.0" layoutY="257.0" prefHeight="17.0" prefWidth="111.0" />
+            <Label layoutX="158.0" layoutY="277.0" prefHeight="17.0" prefWidth="111.0" text="Fall 2023" />
+            <Label fx:id="rollno" layoutX="156.0" layoutY="298.0" prefHeight="17.0" prefWidth="186.0" />
+            <Label layoutX="23.0" layoutY="353.0" prefHeight="18.0" prefWidth="225.0" text="Admission Fee                             Rs.:">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="371.0" prefHeight="18.0" prefWidth="219.0" text="Tuition Fee                                   Rs:">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Line endX="211.33334350585938" layoutX="212.0" layoutY="332.0" startX="-188.00001525878906" />
+            <Line endX="211.33334350585938" layoutX="212.0" layoutY="200.0" startX="-188.00001525878906" />
+            <Label layoutX="23.0" layoutY="389.0" prefHeight="18.0" prefWidth="219.0" text="Others:                                         Rs.:">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="407.0" prefHeight="18.0" prefWidth="227.0" text="Witholding Tax                            Rs.:">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="448.0" prefHeight="18.0" prefWidth="219.0" text="Late Payment Fine                       Rs.:  ">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="427.0" prefHeight="18.0" prefWidth="214.0" text="Payment with-in Due Date:         Rs.: ">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="362.0" layoutY="353.0" prefHeight="18.0" prefWidth="19.0" text="0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="tuition" layoutX="362.0" layoutY="371.0" prefHeight="19.0" prefWidth="85.0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="362.0" layoutY="389.0" prefHeight="18.0" prefWidth="19.0" text="0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="362.0" layoutY="407.0" prefHeight="18.0" prefWidth="19.0" text="0">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="361.0" layoutY="447.0" prefHeight="18.0" prefWidth="36.0" text="150">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="total" layoutX="361.0" layoutY="425.0" prefHeight="19.0" prefWidth="85.0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Line endX="211.33334350585938" layoutX="213.0" layoutY="533.0" startX="-188.00001525878906" />
+            <Label layoutX="27.0" layoutY="531.0" prefHeight="23.0" prefWidth="337.0" text="Errors and ommissions if any will be adjusted subsequently">
+               <font>
+                  <Font name="Bell MT Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="109.0" fitWidth="106.0" layoutX="171.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="goBack" layoutX="27.0" layoutY="551.0" mnemonicParsing="false" onAction="#goBack" text="&gt;&gt;BACK">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="view" layoutX="204.0" layoutY="489.0" mnemonicParsing="false" onAction="#view" style="-fx-background-color: #000000;" text="view" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="8.0" layoutY="10.0" text="Challan No.">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
